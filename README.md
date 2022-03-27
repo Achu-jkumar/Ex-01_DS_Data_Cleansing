@@ -21,6 +21,8 @@ Save the Clean data to the file
 
 # CODE
 ```
+~~~
+
 import pandas as pd
 df= pd.read_csv("Data_set.csv")
 df.head(5)
@@ -33,6 +35,7 @@ df['rating']=df['rating'].fillna(df['rating'].mean())
 df.head(5)
 df.info()
 df.isnull().sum()
+~~~
 ```
 # OUPUT
 ![output01](./output01.png)
