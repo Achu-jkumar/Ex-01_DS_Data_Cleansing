@@ -40,3 +40,6 @@ df.isnull().sum()
 ![output3](./output03.png)
 ![output4](./output04.png)
 
+# Result:
+The given data to perform data cleaning and save the cleaned data to a file has been successfully read.
+
